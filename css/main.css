@@ -26,6 +26,10 @@ a {
   color: #fff;
 }
 
+li {
+  border-bottom: solid #fff;
+}
+
 section {
   background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
 }
@@ -37,5 +41,10 @@ section {
 
 .btn:hover {
   background-color: #fff;
-  color: transparent;
+  color: #ff9500;
+  border-color: #fff;
+}
+
+@media only screen and (min-width: 60em) {
+
 }
