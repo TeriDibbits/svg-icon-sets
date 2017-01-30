@@ -26,8 +26,8 @@ a {
   color: #fff;
 }
 
-li {
-  border-bottom: solid #fff;
+.border {
+  border-bottom: solid rgba(255, 255, 255, 1);
 }
 
 section {
@@ -35,7 +35,7 @@ section {
 }
 
 .btn {
-  border-color: #fff;
+  border-color: rgba(255, 255, 255, 1);
   background-color: transparent;
 }
 
@@ -47,4 +47,8 @@ section {
 
 @media only screen and (min-width: 60em) {
 
+  .border {
+    border-bottom: none;
+    border-right: solid rgba(255, 255, 255, 1);
+  }
 }
