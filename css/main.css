@@ -27,7 +27,7 @@ a {
 }
 
 .border {
-  border-bottom: solid rgba(255, 255, 255, 1);
+  border-bottom: solid rgba(255, 255, 255, .5);
 }
 
 section {
@@ -35,7 +35,7 @@ section {
 }
 
 .btn {
-  border-color: rgba(255, 255, 255, 1);
+  border-color: rgba(255, 255, 255, .5);
   background-color: transparent;
 }
 
@@ -49,6 +49,6 @@ section {
 
   .border {
     border-bottom: none;
-    border-right: solid rgba(255, 255, 255, 1);
+    border-right: solid rgba(255, 255, 255, .5);
   }
 }
